@@ -5,11 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/notices")
-public class NoticeController {
+@RequestMapping("/myAccount")
+public class AccountController {
 
     @GetMapping
-    public String getNoticeInfo() {
-        return "This is your notice info...";
+    public String getAccountInfo() {
+        return "This is your account details..";
     }
 }
