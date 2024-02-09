@@ -1,3 +1,4 @@
-SparrowBank -app without security	
-SparrowBank2 - app with enabled spring security and different controllers	
-SparrowBank3 - app with custome config for spring secutiry
+ [!IMPORTANT] </br>
+## SparrowBank -app without security	</br>
+## SparrowBank2 - app with enabled spring security and different controllers	</br>
+## SparrowBank3 - app with custome config for spring secutiry . secure all urls except 2 urls /contact and /notices </br>
