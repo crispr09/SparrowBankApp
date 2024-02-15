@@ -15,3 +15,15 @@
 SELECT * FROM customer;
 ## SparrowBank6 - app with custome using custom tables of storing user authentication</br>
 ## SparrowBank7 - app with BCryptPasswordEncoder</br>
+CREATE TABLE `users` (
+`id` INT NOT NULL AUTO_INCREMENT,
+`username` VARCHAR(45) NOT NULL,
+`password` VARCHAR(45) NOT NULL,
+`enabled` INT NOT NULL,
+PRIMARY KEY (`id`));
+
+CREATE TABLE `authorities` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `username` varchar(45) NOT NULL,
+  `authority` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`));
