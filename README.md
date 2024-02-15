@@ -27,3 +27,4 @@ CREATE TABLE `authorities` (
   `username` varchar(45) NOT NULL,
   `authority` varchar(45) NOT NULL,
   PRIMARY KEY (`id`));
+## SparrowBank8 - Implementing and Customising the AuthenticationProvider  </br>
