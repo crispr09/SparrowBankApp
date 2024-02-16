@@ -28,3 +28,5 @@ CREATE TABLE `authorities` (
   `authority` varchar(45) NOT NULL,
   PRIMARY KEY (`id`));
 ## SparrowBank8 - Implementing and Customising the AuthenticationProvider  </br>
+
+## SparrowBank8 - adding csrf and cors functionality with enhancment in all controllers and entities  </br>
